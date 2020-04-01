@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.contaner{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    border: solid rebeccapurple;
+}
+
+header{
+    background-image: url(./images/mastehead.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+   background-position-x: center;
+    background-size: 1000px 500px;
+}
+
+.iphone{
+    display: none;
+}
+
+#introduction{
+    background: seashell;
+    height: 400px;
+    margin: 20px;
+}
+#service{
+    color: white;
+    margin: 20px;
+}
+
+
+.designquality{
+    height: 180px;
+    background-color: rosybrown;
+    padding: 25px;
+    color: white;
+}
+
+.buildtolast{
+    height: 180px;
+    background-color: rgb(4, 89, 110);
+    padding: 25px;
+    color: white;
+}
+
+
+.ourclients{
+    height: 180px;
+    background-image: url(./images/box-bg.jpg);
+    padding: 25px;
+    color: white;
+
+
+}
+
+
+.signup{
+    height: 180px;
+    background-image:url(./images/box-bg-lg.jpg);
+    padding: 25px;
+    color: white;
+    background-size: 350px 180px;
+    background-position: center;
+}
+
+
+.perfectpic{
+    height: 180px;
+    background-color: rgb(58, 216, 182);
+    padding: 25px;
+    color: white;
+
+
+}
+
+
+#detail{
+    padding: 20px;
+}
+
+h3{
+    padding-bottom: 25px;
+}
+
+h4{
+    margin-top: 25px;
+    padding-bottom: 30px;
+}
+
+
+
+#option{
+    background-image: url(./images/full-image.jpg);
+    height: 480px;
+    color: white;
+    background-position: left;
+    background-size: 1000px 500px;
+}
+
+
+#reason{
+    padding: 20px;
+}
+
+#business{
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+
+footer{
+    padding: 20px;
+    background-color: rgb(32, 45, 58);
+    color: white;
+}
+
+input{
+    width: 100%;
+    
+}
+
+
+.form{
+    display: flex;
+}
+
+.submit{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(134, 219, 169);
+    color: white;
+}
+
+
+
+li {
+    list-style-type: none;
+}
