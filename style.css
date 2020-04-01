@@ -4,6 +4,7 @@
     padding: 0;
 }
 body{
+    font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -21,8 +22,9 @@ header{
     background-repeat: no-repeat;
     width: 100%;
     height: 500px;
-   background-position-x: center;
+    background-position-x: center;
     background-size: 1000px 500px;
+    color: white;
 }
 
 .iphone{
@@ -30,9 +32,9 @@ header{
 }
 
 #introduction{
-    background: seashell;
     height: 400px;
     margin: 20px;
+    color: rgb(156, 154, 154);
 }
 #service{
     color: white;
@@ -111,13 +113,31 @@ h4{
 
 #reason{
     padding: 20px;
+    background-color: rgb(134, 219, 169);
+    height: 500px;
 }
 
 #business{
-    padding-top: 100px;
     padding-left: 50px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
+.businessbtn{
+    
+}
+
+.fa-apple{
+    font-size: 30px;
+    color: gray;
+}
+.fa-windows{
+    font-size: 30px;
+    margin-left: 10px;
+    color: gray;
+}
 
 footer{
     padding: 20px;
@@ -127,6 +147,7 @@ footer{
 
 input{
     width: 100%;
+    border-radius: 5px 0px 0px 5px;
     
 }
 
@@ -140,8 +161,14 @@ input{
     height: 30px;
     background-color: rgb(134, 219, 169);
     color: white;
+    border-color: rgb(134, 219, 169);
 }
 
+
+.infofooter{
+    display: flex;
+    justify-content: space-around;
+}
 
 
 li {
