@@ -14,7 +14,6 @@ body{
     width: 375px;
     display: flex;
     flex-direction: column;
-    border: solid rebeccapurple;
 }
 
 header{
@@ -76,14 +75,14 @@ header{
 
 .designquality{
     height: 160px;
-    background-color: rosybrown;
+    background-color: #F299A9;
     padding: 25px;
     color: white;
 }
 
 .buildtolast{
     height: 160px;
-    background-color: rgb(4, 89, 110);
+    background-color: #605F7F;
     padding: 25px;
     color: white;
 }
@@ -112,7 +111,7 @@ header{
 
 .perfectpic{
     height: 160px;
-    background-color: rgb(58, 216, 182);
+    background-color: #84C99D;
     padding: 25px;
     color: white;
 
@@ -174,7 +173,7 @@ h4{
 
 #reason{
     padding: 20px;
-    background-color: rgb(134, 219, 169);
+    background-color: #84C99D;
     height: 500px;
     color: white;
 }
@@ -182,7 +181,7 @@ h4{
 #business{
     padding-left: 50px;
     padding-bottom: 50px;
-    height: 600px;
+    height: 630px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -190,9 +189,11 @@ h4{
 
 .legacy{
     padding: 3px;
-    background-color: gray;
+    background-color: #E2E2E1;
     border-radius: 5px;
     color: white;
+    margin-top: 60px;
+    margin-bottom: 25px;
 }
 
 .businessbtn1{
@@ -200,7 +201,7 @@ h4{
     width: 100px;
     margin-top: 15px;
     margin-bottom: 15px;
-    background-color: rgb(152, 223, 72);
+    background-color: #7ECA9A;
     border-radius: 5px;
     color: white;
 
@@ -210,7 +211,7 @@ h4{
     width: 100px;
     margin-top: 15px;
     margin-bottom: 15px;
-    background-color: rgb(204, 101, 204);
+    background-color: #BD8BBE;
     border-radius: 5px;
     color: white;
 
@@ -222,7 +223,7 @@ h4{
     width: 100px;
     margin-top: 15px;
     margin-bottom: 15px;
-    background-color: rgb(152, 223, 72);
+    background-color: #7ECA9A;
     border-radius: 5px;
     color: white;
 
@@ -261,9 +262,9 @@ input{
 .submit{
     width: 30px;
     height: 30px;
-    background-color: rgb(134, 219, 169);
+    background-color: #84C99D;
     color: white;
-    border-color: rgb(134, 219, 169);
+    border-color: #84C99D;
     margin-top: 5px;
 }
 
