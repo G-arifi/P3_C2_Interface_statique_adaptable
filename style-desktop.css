@@ -1,0 +1,119 @@
+@media screen 
+  and (min-width: 1200px) 
+  and (max-width: 1600px) 
+ { 
+
+
+
+header{
+    background-size: 1800px 951px;
+    height: 1000px;
+
+}
+
+.iphone{
+    display: list-item;
+    float: right;
+    margin-right: 300px;
+    position: relative;
+    height: 600px;
+    width: 400px;
+}
+
+
+
+
+.contaner{
+    width: 100%;
+    border: solid rebeccapurple;
+}
+
+
+#introduction{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+
+#service{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid rebeccapurple;
+    width: 60%;
+}
+
+
+.designquality{
+    width: 33%;
+    border: solid red;
+  }
+  
+  .buildtolast{
+      width: 33%;
+      border: solid red;
+
+  }
+  
+  
+  .ourclients{
+      width: 33%;
+      border: solid red;
+
+  }
+  
+  
+  .signup{
+    width: 66%;
+    border: solid red;
+    background-size: 600px 180px;
+
+  }
+  
+  
+  .perfectpic{  
+      width: 33%;
+      border: solid red;
+
+
+  }
+  
+
+  #detail{
+      margin-left: 20%;
+      margin-right: 20%;
+  }
+
+
+  footer{
+      padding-right: 20%;
+      padding-left: 20%;
+  }
+
+  .form{
+      width: 100%;
+  }
+  .footertext{
+      width: 50%;
+  }
+
+
+
+  .footerinputNtext{
+      display: flex;
+      justify-content: space-between;
+      border: solid rebeccapurple;
+
+  }
+
+
+  .infofooter{
+      display: flex;
+      justify-content: flex-start;
+      border: solid red;
+  }
+
+
+}
