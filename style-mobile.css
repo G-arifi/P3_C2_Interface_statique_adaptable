@@ -160,7 +160,7 @@ h4{
     height: 480px;
     color: white;
     background-position: left;
-    background-size: 1000px 500px;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;

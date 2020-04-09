@@ -5,22 +5,23 @@
 
 
 
+
 header{
-    background-size: 1800px 951px;
-    height: 1000px;
-
+    width: 100%;
+    height: 700px;
+    background-size: 100% 650px;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+   
 }
 
-.iphone{
-    display: list-item;
-    float: right;
-    margin-right: 300px;
-    position: relative;
-    height: 600px;
+
+.headertext{
+    height: 250px;
     width: 400px;
+    padding-top: 100px;
 }
-
-
 
 
 .contaner{
@@ -29,9 +30,37 @@ header{
 }
 
 
+.iphone{
+    display: list-item;
+    float: right;
+    margin-right: 150px;
+    margin-top: 200px;
+    height: 600px;
+    width: 400px;
+}
+
+
+
+
+
+
 #introduction{
-    padding-left: 20%;
-    padding-right: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+}
+
+
+.introtxt1{
+    width: 50%;
+    padding-left: 10px;
+}
+
+.introtxt2{
+    width: 50%;
+    margin-top: 100px;
+    padding-left: 10px;
+
 }
 
 
@@ -41,33 +70,28 @@ header{
     margin-right: 20%;
     display: flex;
     flex-wrap: wrap;
-    border: solid rebeccapurple;
     width: 60%;
 }
 
 
 .designquality{
     width: 33%;
-    border: solid red;
   }
   
   .buildtolast{
       width: 33%;
-      border: solid red;
 
   }
   
   
   .ourclients{
       width: 33%;
-      border: solid red;
 
   }
   
   
   .signup{
     width: 66%;
-    border: solid red;
     background-size: 600px 180px;
 
   }
@@ -75,15 +99,100 @@ header{
   
   .perfectpic{  
       width: 33%;
-      border: solid red;
 
 
   }
   
 
   #detail{
-      margin-left: 20%;
-      margin-right: 20%;
+      padding-left: 20.80%;
+      padding-right: 20%;
+      height: 400px;
+  }
+
+  .detailcontaner{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+
+  .detailtxt1{
+    width: 25%;
+}
+
+.detailtxt2{
+    width: 25%;
+    padding-left: 10px;
+}
+
+.detailtxt3{
+    width: 25%;
+    padding-left: 10px;
+}
+
+.detailtxt4{
+    width: 25%;
+    padding-left: 10px;
+}
+
+  #option{
+      display: flex;
+      justify-content: flex-end;
+
+  }
+
+  .optiontextcontainer{
+      width: 350px;
+      margin-left: 200px;
+      margin-bottom: 25px;
+  }
+
+
+  #reason{
+    padding-left: 20%;
+    padding-right: 20%;
+   
+}
+
+
+
+  .reasoncontaner{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+  #business{
+    background-color: honeydew;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 400px;
+    padding-left: 20%;
+    padding-right: 20%;
+   
+
+}
+
+  .businessright{
+      border: solid rgb(192, 191, 191);
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-radius: 5px;
+      height: 80%;
+      padding-left: 20px;
+      margin-top: 50px;
+  }
+
+
+  .businessleft{
+      padding-left: 20px;
+      margin-right: 15px;
   }
 
 
@@ -94,8 +203,13 @@ header{
 
   .form{
       width: 100%;
+     
   }
   .footertext{
+      width: 50%;
+  }
+
+  .footerGrtxtInput{
       width: 50%;
   }
 
@@ -103,16 +217,17 @@ header{
 
   .footerinputNtext{
       display: flex;
-      justify-content: space-between;
-      border: solid rebeccapurple;
+      justify-content: flex-start;
+     
+     
 
   }
 
 
   .infofooter{
       display: flex;
-      justify-content: flex-start;
-      border: solid red;
+      justify-content: space-between;
+      width: 50%;
   }
 
 

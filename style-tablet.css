@@ -23,12 +23,8 @@ body{
 
 
 header{
-    background-image: url(./images/mastehead.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 500px;
     background-position-x: center;
-    background-size: 1000px 500px;
+    background-size: cover;
     color: white;
     
 }
